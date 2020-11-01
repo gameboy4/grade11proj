@@ -2,30 +2,30 @@ package DB;
 
 public class UsersClass {
     private int userid;
-    private String names;
+    private String name;
     private String surname;
     private String username;
     private String password;
-    private String permissions;
+    private String permission;
 
     public UsersClass() {
     }
 
-    public UsersClass(int userid, String names, String surname, String username, String password, String permissions) {
+    public UsersClass(int userid, String name, String surname, String username, String password, String permission) {
         this.userid = userid;
-        this.names = names;
+        this.name = name;
         this.surname = surname;
         this.username = username;
         this.password = password;
-        this.permissions = permissions;
+        this.permission = permission;
     }
 
     public int getUserid() {
         return userid;
     }
 
-    public String getNames() {
-        return names;
+    public String getName() {
+        return name;
     }
 
     public String getSurname() {
@@ -40,16 +40,16 @@ public class UsersClass {
         return password;
     }
 
-    public String getPermissions() {
-        return permissions;
+    public String getPermission() {
+        return permission;
     }
 
     public void setUserid(int userid) {
         this.userid = userid;
     }
 
-    public void setNames(String names) {
-        this.names = names;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setSurname(String surname) {
@@ -64,8 +64,8 @@ public class UsersClass {
         this.password = password;
     }
 
-    public void setPermissions(String permissions) {
-        this.permissions = permissions;
+    public void setPermission(String permission) {
+        this.permission = permission;
     }
            
     
